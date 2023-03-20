@@ -1,2 +1,1 @@
-# rcdc
-Testing ground for vulnerabilities ()
+Testing ground for vulnerabilities
