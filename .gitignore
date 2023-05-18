@@ -3,6 +3,7 @@
 *.pot
 *.pyc
 __pycache__
+__init__.py
 db.sqlite3
 media
 my_crlf
