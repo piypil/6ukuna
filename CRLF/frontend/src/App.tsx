@@ -1,20 +1,16 @@
 import React from 'react';
 import {Homevuln} from './components/Homevuln'
 import {ScanResult} from './data/ScanResult'
-import CodeDisplay from './components/CodeDisplay';
 import CodeMirror from '@uiw/react-codemirror';
 import { langs } from '@uiw/codemirror-extensions-langs';
 import { EditorView } from '@codemirror/view';
 import { classname } from '@uiw/codemirror-extensions-classname';
+import { tokyoNight } from '@uiw/codemirror-theme-tokyo-night';
+import { Layout, Menu, theme, Input, Col, Row, Typography, Button, Popover, Space, Divider, Tag } from 'antd';
 
 function App() {
-  const code = `def ebanina():`;
-  const highlightedLines = [0]; // Список строк, которые нужно подсветить красным
 
-  const themeDemo = EditorView.baseTheme({
-    '&dark .line-color': { backgroundColor: 'orange' },
-    '&light .line-color': { backgroundColor: 'orange' },
-  });
+  const editor = CodeMirror
 
   const classnameExt = classname({
     add: (lineNumber: number) => {
@@ -25,16 +21,17 @@ function App() {
   });
 
   return (
-    <div className="text-3xl font-bold underline">
-      <h1>Пример подсветки синтаксиса Python</h1>
-      <CodeDisplay code={code} highlightedLines={highlightedLines} />
+    <Row style={{ height: '100%' }} gutter={32}>
       <Homevuln Scanresult = { ScanResult }/>
-      <CodeMirror
-      value="def python_code():"
-      height="200px"
-      extensions={[themeDemo, classnameExt, langs.python()]}
-    />
-    </div>
+      <Col span={12} style={{ height: '100%', overflow: 'auto' }}>
+        <CodeMirror
+        value="def python_code():"
+        height="200px"
+        theme={tokyoNight}
+        extensions={[classnameExt, langs.python()]}
+        />
+      </Col>
+    </Row>
   );
 };
 
