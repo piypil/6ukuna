@@ -8,6 +8,7 @@ db.sqlite3
 media
 my_crlf
 my_ssrf
+my_sqli
 
 # Environments 
 .env 
