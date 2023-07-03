@@ -9,6 +9,8 @@ media
 my_crlf
 my_ssrf
 my_sqli
+my_csp
+project_scann
 
 # Environments 
 .env 
