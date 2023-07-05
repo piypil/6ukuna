@@ -10,6 +10,7 @@ my_crlf
 my_ssrf
 my_sqli
 my_csp
+my_cors
 project_scann
 
 # Environments 

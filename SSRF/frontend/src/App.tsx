@@ -19,7 +19,7 @@ function App() {
         }}
         >
       <Routes>
-        <Route path='/' element={<DashboardLayout/>}>
+          <Route path='/' element={<DashboardLayout/>}>
           <Route path='/dashboard' element={<ClientDashboard/>}/>
           <Route path='/analyze' element={<CodeResult/>}/>
         </Route>
