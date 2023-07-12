@@ -12,6 +12,8 @@ my_sqli
 my_csp
 my_cors
 project_scann
+migrations
+instance
 
 # Environments 
 .env 
