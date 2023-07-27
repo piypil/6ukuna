@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e">
+    <diagram id="EBT_ibKZysbLzmyvxpgY" name="Страница 1">
+        <mxGraphModel dx="1023" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="90" width="236" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Жертва переходит по ссылке" style="rounded=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="400" width="236" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=classic;endSize=8;startSize=8;jumpSize=7;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fillColor=#dae8fc;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="470.5699999999999" y="150" as="sourcePoint"/>
+                        <mxPoint x="470.93" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="Злоумышленник создает вредоносную ссылку (Вредоносный скрипт в URL адресе)" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="382" y="105" width="178" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Злоумышленник отправляет &lt;br&gt;ссылку жертве, ждет &lt;br&gt;пока жертва перейдет по ней" style="shape=cloud;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="353" y="210" width="217" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="URL отражается в DOM, вредоносный скрипт выполняется" style="rounded=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="530" width="236" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=classic;endSize=8;startSize=8;jumpSize=7;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fillColor=#dae8fc;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="471.56999999999994" y="330" as="sourcePoint"/>
+                        <mxPoint x="471.93000000000006" y="399.9999999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="" style="endArrow=classic;endSize=8;startSize=8;jumpSize=7;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fillColor=#dae8fc;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="471.56999999999994" y="460" as="sourcePoint"/>
+                        <mxPoint x="471.93000000000006" y="529.9999999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
