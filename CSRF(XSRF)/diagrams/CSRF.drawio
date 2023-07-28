@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="fECts557okDQ3qRtLXVx" name="Страница 1">
+        <mxGraphModel dx="878" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Злоумышленник создает вредоносную ссылку на сайте или в фишинговом письме" style="rounded=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="353" y="120" width="236" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="endArrow=classic;endSize=8;startSize=8;jumpSize=7;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fillColor=#dae8fc;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="471" y="180" as="sourcePoint"/>
+                        <mxPoint x="470.93000000000006" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="Вошедший в систему пользователь нажимает на вредоносную ссылку, содержаущую атаку" style="rounded=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="353" y="220" width="236" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Уязвимое приложение&#10;выполняет действие, прописанное злоумышленником, используя сессию пользователя" style="rounded=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontStyle=0" parent="1" vertex="1">
+                    <mxGeometry x="117" y="340" width="236" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;endSize=8;startSize=8;jumpSize=7;strokeWidth=2;strokeColor=#FFFFFF;fillColor=#dae8fc;entryX=0.475;entryY=-0.058;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="6">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="350" y="250" as="sourcePoint"/>
+                        <mxPoint x="230" y="330" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="230" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="" style="endArrow=classic;endSize=8;startSize=8;jumpSize=7;strokeWidth=2;strokeColor=#FFFFFF;fillColor=#dae8fc;entryX=0.559;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="15">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="590" y="250" as="sourcePoint"/>
+                        <mxPoint x="720" y="330" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="720" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="Безопасное приложение&#10;перепроверяет личность и сессию пользователя, но не выполняет действие " style="rounded=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="589" y="340" width="236" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Пользователь не знает о действиях внутри приложения, атака проходит успешно " style="rounded=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="117" y="450" width="236" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Сессия пользователя успешно защищена" style="rounded=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontStyle=0" vertex="1" parent="1">
+                    <mxGeometry x="589" y="450" width="236" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="endArrow=classic;endSize=8;startSize=8;jumpSize=7;strokeWidth=2;entryX=0.479;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fillColor=#dae8fc;entryPerimeter=0;" edge="1" parent="1" target="17">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="230.06999999999994" y="400" as="sourcePoint"/>
+                        <mxPoint x="230.00000000000023" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=classic;endSize=8;startSize=8;jumpSize=7;strokeWidth=2;entryX=0.555;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fillColor=#dae8fc;entryPerimeter=0;" edge="1" parent="1" target="18">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="720.0699999999999" y="400" as="sourcePoint"/>
+                        <mxPoint x="720.0000000000002" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
