@@ -1,0 +1,58 @@
+<mxfile host="65bd71144e">
+    <diagram id="fECts557okDQ3qRtLXVx" name="Страница 1">
+        <mxGraphModel dx="812" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Обнаружение" style="rounded=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="353" y="130" width="167" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=classic;endSize=8;startSize=8;jumpSize=7;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fillColor=#dae8fc;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="436.2799999999999" y="180" as="sourcePoint"/>
+                        <mxPoint x="436.21" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="Определение" style="rounded=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="353" y="220" width="167" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Эксплуатация" style="rounded=0;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="353" y="310" width="167" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Чтение документации о&#10;механизме шаблонов" style="rounded=0;whiteSpace=wrap;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="310" width="167" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Изучение среды" style="rounded=0;whiteSpace=wrap;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="220" width="167" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Атака" style="rounded=0;whiteSpace=wrap;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="130" width="167" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="endArrow=classic;endSize=8;startSize=8;jumpSize=7;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fillColor=#dae8fc;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="436.2799999999999" y="270" as="sourcePoint"/>
+                        <mxPoint x="436.21" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="" style="endArrow=classic;endSize=8;startSize=8;jumpSize=7;strokeWidth=2;entryX=-0.004;entryY=0.607;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fillColor=#dae8fc;entryPerimeter=0;" edge="1" parent="1" target="29">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="340" as="sourcePoint"/>
+                        <mxPoint x="530" y="379.9999999999999" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="" style="endArrow=classic;endSize=8;startSize=8;jumpSize=7;strokeWidth=2;strokeColor=#FFFFFF;fillColor=#dae8fc;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="633.27" y="310.0000000000001" as="sourcePoint"/>
+                        <mxPoint x="633.2" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="" style="endArrow=classic;endSize=8;startSize=8;jumpSize=7;strokeWidth=2;strokeColor=#FFFFFF;fillColor=#dae8fc;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="633.27" y="220.0000000000001" as="sourcePoint"/>
+                        <mxPoint x="633.2" y="180.0000000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
