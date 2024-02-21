@@ -1,2 +1,0 @@
-# Blind XSS
-
