@@ -1,33 +1,7 @@
-# Django #
-*.log
-*.pot
-*.pyc
-__pycache__
-__init__.py
-db.sqlite3
-media
-my_crlf
-my_ssrf
-my_sqli
-my_csp
-my_cors
-project_scann
-migrations
-instance
-
-# Environments 
-.env 
-.venv 
-env/ 
-venv/ 
-ENV/ 
-env.bak/ 
-venv.bak/
-
-# OS generated files #
+.dccache
+scripts/
+scripts/*
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
+**/.DS_Store
+.vscode
+.vscode/*
