@@ -1,5 +1,5 @@
-root: ./VulnOverview
+root: ./
 
 ​structure:
-  readme: README.md
+  readme: DOC.md
   summary: SUMMARY.md​
